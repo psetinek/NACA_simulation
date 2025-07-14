@@ -1,6 +1,6 @@
 L: 200 # Size of the domain
-y_h: 2.e-6 # Heigth of the first cell of the boundary layer.
-y_hd: 1.e-4 # Heigth of the furthest first cell of the trail.
+y_h: 1.2e-3 # Heigth of the first cell of the boundary layer.
+y_hd: 4.e-2 # Heigth of the furthest first cell of the trail.
 x_h: 1.e-5 # Width of the smallest cell at the leading edge.
 y_exp: 1.075 # Expansion ratio in the y-direction. (< 1.2)
 x_exp: 1.025 # Expansion ratio in the x-direction on the airfoil. (< 1.2)

@@ -565,7 +565,7 @@ def simulation(init_path, path, params, just_init = False, figure = False, compu
             if params['compressible']:
                 subprocess.run("foamToVTK -noZero -fields '(p U T rho nut wallShearStress Ma)' > log.foamToVTK", shell = True)
             else:
-                subprocess.run("foamToVTK -noZero -fields '(p U nut wallShearStress)' > log.foamToVTK", shell = True)
+                subprocess.run("foamToVTK -noZero -fields '(p U nut wallShearStress)' -latestTime > log.foamToVTK", shell = True)
         print('\nSimulation done!')
 
     os.chdir(wd)

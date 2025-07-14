@@ -1,3 +1,5 @@
+This repository was taken and adapted from [https://github.com/Extrality/NACA_simulation](https://github.com/Extrality/NACA_simulation) to produce low fidelity RANS simulation over airfoils.
+
 ## NACA_simulation
 In this repository, you will find different python scripts to run incompressible or compressible Reynolds-Averaged-Simulations over NACA airfoils.
 
